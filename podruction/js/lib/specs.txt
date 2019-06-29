@@ -1,3 +1,0 @@
-Download and replace the latest versions of Modernizr and jQuery
-http://modernizr.com/download/
-http://jquery.com/download/
