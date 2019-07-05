@@ -8,18 +8,18 @@
 	<link type="text/css" rel="stylesheet" href="css/generals.css">
 	<title>Alula</title>
 </head>
-<body id="glow-page">
+<body id="glow-page" style="">
 	<section id="glow">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4" style="text-align: center;margin-top:20%;">
-					<img src="media/images/bote-tres.png" class="tamamo-lata glow lata-uno animated fadeInDown" alt="">
+					<img src="media/images/bote-dorado_.png" class="tamamo-lata  lata-uno animated fadeInDown" alt="">
 				</div>
 				<div class="col-md-4" style="text-align: center;margin-top:20%;">
-					<img src="media/images/bote-tres.png" class="tamamo-lata glow lata-dos animated fadeInDown" alt="">
+					<img src="media/images/bote-dorado_.png" class="tamamo-lata  lata-dos animated fadeInDown" alt="">
 				</div>
 				<div class="col-md-4" style="text-align: center;margin-top:20%;">
-					<img src="media/images/bote-tres.png" class="tamamo-lata glow lata-tres animated fadeInDown" alt="">
+					<img src="media/images/bote-dorado_.png" class="tamamo-lata  lata-tres animated fadeInDown" alt="">
 				</div>
 			</div>
 		</div>
@@ -48,10 +48,10 @@
 		border-top-right-radius: 50px 20px;
 		border-bottom-left-radius: 196px 54px;
     border-bottom-right-radius: 145px 79px;
-		background: #ffff0c;
-		-webkit-box-shadow: 0px 0px 9px 1px rgba(255,255,12);
-		-moz-box-shadow: 0px 0px 9px 1px rgba(255,255,12);
-		box-shadow: 0px 0px 9px 1px rgba(255,255,12);
+		background: rgb(253, 255, 229);
+		-webkit-box-shadow: 0px 0px 9px 1px rgb(254, 254, 178);
+		-moz-box-shadow: 0px 0px 9px 1px rgba(254, 254, 178);
+		box-shadow: 0px 0px 9px 1px rgba(254	, 254, 178);
 
 	}
 
@@ -70,11 +70,24 @@
 
 		setTimeout(function () { 
 			$('.lata-dos').show();
-			}, 1000);
+			$('.lata-uno').attr('src', 'media/images/bote-dorado.png');
+			//$('.lata-uno').addClass('glow');
+			}, 800);
 
 		setTimeout(function () {
 			$('.lata-tres').show();
-			}, 2000);
+			$('.lata-dos').attr('src', 'media/images/bote-dorado.png');
+			//$('.lata-tres').addClass('glow');
+
+			//$('.lata-dos').addClass('glow');
+			}, 1600);
+
+			setTimeout(function () {
+			$('.lata-tres').attr('src', 'media/images/bote-dorado.png');
+			//$('.lata-tres').addClass('glow');
+
+			//$('.lata-dos').addClass('glow');
+		}, 2400);
 		
 	});
 	
