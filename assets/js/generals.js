@@ -15,6 +15,7 @@ $( document ).ready(function() {
 		$('.alula-bote-dos').show();
 		$('.nubes-comfort-dos').show();
 		$('.especiales-bote-uno').attr('src', 'media/images/bote-uno.png');
+		$('.alula-bote-uno').attr('src', 'media/images/bebe-tres-n-.png');
 		//$('.lata-uno').addClass('glow');
 	}, 800);
 	setTimeout(function () {
@@ -22,10 +23,14 @@ $( document ).ready(function() {
 		$('.alula-bote-tres').show();
 		$('.nubes-comfort-tres').show();
 		$('.especiales-bote-dos').attr('src', 'media/images/bote-dos.png');
+		$('.alula-bote-dos').attr('src', 'media/images/bebe-dos-nuevo-.png');
+
 		//$('.lata-uno').addClass('glow');
 	}, 1600);
 	setTimeout(function () {
 		$('.especiales-bote-tres').attr('src', 'media/images/bote-tres.png');
+		$('.alula-bote-tres').attr('src', 'media/images/bebe-tres-nuevo-.png');
+
 		//$('.lata-uno').addClass('glow');
 	}, 2400);
 
