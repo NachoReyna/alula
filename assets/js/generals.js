@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 	
-	$('.especiales-bote-uno').hide();
 	$('.especiales-bote-dos').hide();
 	$('.especiales-bote-tres').hide();
 
@@ -10,8 +9,6 @@ $( document ).ready(function() {
 	$('.nubes-comfort-dos').hide();
 	$('.nubes-comfort-tres').hide();
 
-
-	
 
 	setTimeout(function () {
 		$('.especiales-bote-dos').show();
