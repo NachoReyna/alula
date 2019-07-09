@@ -9,11 +9,20 @@ $( document ).ready(function() {
 	$('.nubes-comfort-tres').hide();
 
 
+	$('.dos').hide();
+	$('.tress').hide();
+	$('.cinco').hide();
+	$('.seis').hide();
 	
+
+
 	setTimeout(function () {
 
 		var dos = '<img src="media/images/bote-dos.png" alt="" class="especiales-bote-dos img-fluid">';
 		$('.dos-botes').append(dos);
+
+		$('.dos').show();
+		$('.cinco').show();
 
 		$('.alula-bote-dos').show();
 		$('.nubes-comfort-dos').show();
@@ -24,10 +33,12 @@ $( document ).ready(function() {
 	setTimeout(function () {
 		var tres = '<img src="media/images/bote-tres.png" alt="" class="especiales-bote-tres img-fluid">';
 		$('.tres').append(tres);
-		
+
+		$('.tress').show();
+		$('.seis').show();
+
 		$('.alula-bote-tres').show();
 		$('.nubes-comfort-tres').show();
-		$('.especiales-bote-dos').attr('src', 'media/images/bote-dos_.png');
 		$('.alula-bote-dos').attr('src', 'media/images/bebe-dos-nuevo-.png');
 
 		//$('.lata-uno').addClass('glow');
