@@ -23,6 +23,8 @@ $( document ).ready(function() {
 		$('.bote-bebe-dos').append(botesUno);
 		$('.bote-nube-dos').show();
 
+		var especialesDos = '<img src="media/images/latas_.gif" alt="" class="img-fluid">';
+		$('.bote-especiales-dos').append(especialesDos);
 		
 		$('.dos').show();
 		$('.cinco').show();
@@ -41,6 +43,8 @@ $( document ).ready(function() {
 		$('.bote-bebe-tres').append(botesDos);
 		$('.bote-nube-tres').show();
 
+		var especialesTres = '<img src="media/images/bote-tres.gif" alt="" class="img-fluid">';
+		$('.bote-especiales-tres').append(especialesTres);
 
 		$('.bebe-dos').show();
 
