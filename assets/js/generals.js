@@ -1,13 +1,9 @@
 $( document ).ready(function() {
-	
-
-
 	$('.alula-bote-dos').hide();
 	$('.alula-bote-tres').hide();
 
 	$('.nubes-comfort-dos').hide();
 	$('.nubes-comfort-tres').hide();
-
 
 	$('.dos').hide();
 	$('.tress').hide();
@@ -15,12 +11,19 @@ $( document ).ready(function() {
 	$('.seis').hide();
 	
 
+	$('.bote-nube-dos').hide();
+	$('.bote-nube-tres').hide();
+
 
 	setTimeout(function () {
-
 		var dos = '<img src="media/images/bote-dos.png" alt="" class="especiales-bote-dos img-fluid">';
 		$('.dos-botes').append(dos);
 
+		var botesUno = '<img src="media/images/bebe-dos-nuevo.gif" class="img-fluid animated pulse" style="max-width: 115%;" alt="">';
+		$('.bote-bebe-dos').append(botesUno);
+		$('.bote-nube-dos').show();
+
+		
 		$('.dos').show();
 		$('.cinco').show();
 
@@ -34,20 +37,26 @@ $( document ).ready(function() {
 		var tres = '<img src="media/images/bote-tres.png" alt="" class="especiales-bote-tres img-fluid">';
 		$('.tres').append(tres);
 
+		var botesDos = '<img src="media/images/bebe-tres-nuevo.gif" class="img-fluid animated pulse" style="max-width: 115%;" alt="">';
+		$('.bote-bebe-tres').append(botesDos);
+		$('.bote-nube-tres').show();
+
+
+		$('.bebe-dos').show();
+
 		$('.tress').show();
 		$('.seis').show();
 
 		$('.alula-bote-tres').show();
 		$('.nubes-comfort-tres').show();
 		$('.alula-bote-dos').attr('src', 'media/images/bebe-dos-nuevo-.png');
-
-		//$('.lata-uno').addClass('glow');
 	}, 1600);
 	setTimeout(function () {
 		$('.especiales-bote-tres').attr('src', 'media/images/bote-tres_.png');
 		$('.alula-bote-tres').attr('src', 'media/images/bebe-tres-nuevo-.png');
 
-		//$('.lata-uno').addClass('glow');
+		$('.bebe-tres').show();
+		
 	}, 2400);
 
 
