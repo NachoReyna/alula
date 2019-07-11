@@ -23,7 +23,7 @@ $( document ).ready(function() {
 		$('.bote-bebe-dos').append(botesUno);
 		$('.bote-nube-dos').show();
 
-		var especialesDos = '<img src="media/images/latas_.gif" alt="" class="img-fluid">';
+		var especialesDos = '<img src="media/images/lat.gif" alt="" class="img-fluid">';
 		$('.bote-especiales-dos').append(especialesDos);
 		
 		$('.dos').show();
